@@ -2457,7 +2457,7 @@ body {
    ========================================================================== */
 .faq-page-container {
   padding-top: 0;
-  padding-bottom: 4rem;
+  padding-bottom: 0;
   width: 100%;
   margin: 0 auto;
 }
@@ -2638,13 +2638,19 @@ body {
   margin-top: 3.5rem;
 }
 
-.faq-list-section,
-.faq-contact-section {
+.faq-list-section {
   max-width: 1080px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.faq-contact-section {
+  max-width: 100%;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .category-tabs::-webkit-scrollbar {
@@ -2814,7 +2820,13 @@ body {
 
 /* Contact Banner */
 .faq-contact-section {
-  margin-top: 3.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+
+.faq-page-container + .footer-card {
+  margin-top: 0.5rem;
 }
 
 .faq-contact-card {
