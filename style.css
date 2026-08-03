@@ -2821,12 +2821,12 @@ body {
 /* Contact Banner */
 .faq-contact-section {
   margin-top: 2.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem; /* 24px gap to footer */
   width: 100%;
 }
 
 .faq-page-container + .footer-card {
-  margin-top: 0.5rem;
+  margin-top: 0;
 }
 
 .faq-contact-card {
