@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ - Pomogochi Extension</title>
+  <meta name="description" content="Frequently Asked Questions about Pomogochi desktop pet, Pomodoro focus timer, buddies, and features.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Main Site Container -->
+  <div class="site-container">
+
+    <!-- Navbar / Header (Standalone Header) -->
+    <header class="navbar navbar-standalone">
+      <div class="nav-left">
+        <a href="index.html" class="logo-link">
+          <img src="assets/images/logo-about.webp" alt="Pomogochi" class="nav-logo">
+        </a>
+      </div>
+
+      <nav class="nav-center">
+        <ul class="nav-links">
+          <li><a href="index.html#home">Home</a></li>
+          <li><a href="buddies.html">Buddies</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="two-beat-thinking.html">Two-Beat Thinking</a></li>
+          <li><a href="faq.html" class="active">FAQ</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-right">
+        <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="btn-youtube">
+          <svg class="yt-icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+          </svg>
+          <span>Watch on YouTube</span>
+        </a>
+      </div>
+    </header>
+
+    <!-- Main FAQ Page Content -->
+    <main class="faq-page-container">
+
+      <!-- 1. Hero Section (Identical Layout to about.html) -->
+      <section class="faq-hero-section">
+        <!-- Background Image Right-Aligned -->
+        <div class="faq-hero-bg-container">
+          <picture>
+            <source srcset="assets/images/faq-hero-bg.webp" type="image/webp">
+            <img src="assets/images/faq-hero-bg.webp" alt="FAQ Pomogochi Background" class="faq-hero-bg-img">
+          </picture>
+        </div>
+
+        <div class="faq-hero-header">
+          <div class="faq-hero-intro">
+            <span class="badge-core">HELP CENTER</span>
+            <h1 class="faq-title">Frequently Asked Questions</h1>
+            <p class="faq-tagline">Everything you need to know about Pomogochi.</p>
+            <p class="faq-description">
+              Find instant answers for timers, buddies, room decor, framework tools, and extension settings.
+            </p>
+
+            <!-- Search Box Centered -->
+            <div class="faq-search-wrapper">
+              <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+              <input type="text" id="faqSearchInput" placeholder="Search questions or keywords..." class="faq-search-input">
+            </div>
+          </div>
+        </div>
+
+        <!-- Filter Category Tabs Bar Inside Hero Section Bottom (Identical to buddies.html) -->
+        <div class="category-tabs-wrapper faq-hero-tabs-wrapper">
+          <div class="category-tabs">
+            <button class="faq-tab-btn tab-btn active" data-category="all"><img src="assets/images/sparkles.webp" alt="All Questions" class="faq-tab-img"> All Questions</button>
+            <button class="faq-tab-btn tab-btn" data-category="getting-started"><img src="assets/images/sys_tk_rocket.webp" alt="Getting Started" class="faq-tab-img"> Getting Started</button>
+            <button class="faq-tab-btn tab-btn" data-category="focus-timer"><img src="assets/images/sys_3d_app_grid.webp" alt="Focus & Timer" class="faq-tab-img"> Focus & Timer</button>
+            <button class="faq-tab-btn tab-btn" data-category="buddies-decor"><img src="assets/images/buddy_home.webp" alt="Buddies & Decor" class="faq-tab-img"> Buddies & Decor</button>
+            <button class="faq-tab-btn tab-btn" data-category="tools"><img src="assets/images/sys_tk_brain.webp" alt="Thinking & Tools" class="faq-tab-img"> Thinking & Tools</button>
+            <button class="faq-tab-btn tab-btn" data-category="privacy-sync"><img src="assets/images/sys_act_lock_gold.webp" alt="Privacy & Sync" class="faq-tab-img"> Privacy & Sync</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. Accordion List Section -->
+      <section class="faq-list-section">
+        <div class="faq-accordion-list" id="faqAccordionList">
+
+          <!-- Category 1: Getting Started -->
+          <div class="faq-item" data-category="getting-started">
+            <button class="faq-question">
+              <span class="faq-q-text"><img src="assets/images/sys_tk_rocket.webp" alt="Rocket" class="faq-q-img"> What is Pomogochi?</span>
+              <span class="faq-arrow-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Pomogochi is a cozy desktop companion & Pomodoro focus browser extension. It lives in your browser to help you stay focused, recharge with healing ASMR scenes, organize thoughts with Two-Beat Thinking, and collect cute buddies along your productivity journey.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item" data-category="getting-started">
+            <button class="faq-question">
+              <span class="faq-q-text"><span class="faq-q-icon">🎁</span> Is Pomogochi free to use?</span>
+              <span class="faq-arrow-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Yes! Core features including the smart Pomodoro timer, default floating buddies, healing ASMR ambient sounds, and basic tools are 100% free forever. Optional cosmetics and room items can be unlocked with seeds earned by completing focus sessions.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item" data-category="getting-started">
+            <button class="faq-question">
+              <span class="faq-q-text"><span class="faq-q-icon">🌐</span> Which browsers are supported?</span>
+              <span class="faq-arrow-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Pomogochi supports all major Chromium-based web browsers, including Google Chrome, Microsoft Edge, Brave, Vivaldi, and Opera.
+              </p>
+            </div>
+          </div>
+
+          <!-- Category 2: Focus & Timer -->
+          <div class="faq-item" data-category="focus-timer">
+            <button class="faq-question">
+              <span class="faq-q-text"><img src="assets/images/sys_3d_app_grid.webp" alt="Timer" class="faq-q-img"> How does the Pomodoro Focus Timer work?</span>
+              <span class="faq-arrow-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                You can customize work and break intervals (e.g. 25 minutes of focus / 5 minutes of rest). During your focus time, your floating buddy stays right by your side with physics animations and cheers you on to build steady work habits.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item" data-category="focus-timer">
+            <button class="faq-question">
+              <span class="faq-q-text"><span class="faq-q-icon">🎵</span> Can I customize background ambient sounds and sounds?</span>
+              <span class="faq-arrow-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Yes! Pomogochi offers 16 immersive ASMR healing scenes and ambient soundscapes (rain, cozy fireplace, cafe, forest, ocean waves) that you can mix and match during your breaks or focus sessions.
+              </p>
+            </div>
+          </div>
+
+          <!-- Category 3: Buddies & Decor -->
+          <div class="faq-item" data-category="buddies-decor">
+            <button class="faq-question">
+              <span class="faq-q-text"><span class="faq-q-icon">🦊</span> How do I collect new Buddies and room decor?</span>
+              <span class="faq-arrow-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                As you complete focus sessions and achieve daily goals, you earn Sprout Seeds and Coins. You can visit the Village Store to unlock 20+ unique buddies, decorate your cozy room, and level up buddy affinity!
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item" data-category="buddies-decor">
+            <button class="faq-question">
+              <span class="faq-q-text"><img src="assets/images/sparkles.webp" alt="Buffs" class="faq-q-img"> Do Buddies give special buffs or bonuses?</span>
+              <span class="faq-arrow-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Yes! Different buddies provide helpful passive buffs—such as extra seed drop rates, faster rest recovery, or calming ambient effects that make your focus time even more rewarding.
+              </p>
+            </div>
+          </div>
+
+          <!-- Category 4: Thinking & Tools -->
+          <div class="faq-item" data-category="tools">
+            <button class="faq-question">
+              <span class="faq-q-text"><img src="assets/images/sys_tk_brain.webp" alt="Thinking" class="faq-q-img"> What is "Two-Beat Thinking"?</span>
+              <span class="faq-arrow-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Two-Beat Thinking is Pomogochi's built-in framework system for mental clarity. Beat 1 lets you quickly dump raw ideas and thoughts, while Beat 2 organizes them using 6 intuitive frameworks (e.g. Action Matrix, Eisenhower, SWOT) into actionable steps.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item" data-category="tools">
+            <button class="faq-question">
+              <span class="faq-q-text"><span class="faq-q-icon">🧋</span> Does the widget overlay block webpage content?</span>
+              <span class="faq-arrow-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Not at all. The floating buddy and widgets feature jelly physics and click-through transparency options, so you can drag them anywhere on your screen or minimize them whenever you need full page focus.
+              </p>
+            </div>
+          </div>
+
+          <!-- Category 5: Privacy & Sync -->
+          <div class="faq-item" data-category="privacy-sync">
+            <button class="faq-question">
+              <span class="faq-q-text"><img src="assets/images/sys_act_lock_gold.webp" alt="Privacy" class="faq-q-img"> Is my data safe and private?</span>
+              <span class="faq-arrow-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Your privacy is our top priority. All your notes, timer statistics, and room collection data remain strictly stored inside your local browser. We do not track or sell your browsing history.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item" data-category="privacy-sync">
+            <button class="faq-question">
+              <span class="faq-q-text"><span class="faq-q-icon">☁️</span> Can I sync my progress across multiple devices?</span>
+              <span class="faq-arrow-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Yes! By signing into your Chrome profile sync or logging into your Pomogochi account, your unlocked buddies, room decor, and statistics will seamlessly sync across all your computers.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- No Results Fallback -->
+        <div class="faq-no-results" id="faqNoResults" style="display: none;">
+          <div class="no-results-icon">🔍</div>
+          <h3>No matching questions found</h3>
+          <p>Try searching for different keywords or browse our categories above.</p>
+        </div>
+      </section>
+
+      <!-- 4. Still Have Questions Contact Banner -->
+      <section class="faq-contact-section">
+        <div class="faq-contact-card">
+          <div class="contact-card-content">
+            <h2 class="contact-card-title">Still have questions?</h2>
+            <p class="contact-card-desc">
+              Can't find what you're looking for? Reach out to our friendly community or drop us a message anytime!
+            </p>
+            <div class="contact-btn-group">
+              <a href="#" class="btn-primary-green">
+                <span>💬</span>
+                <span>Join Village Discord</span>
+              </a>
+              <a href="#" class="btn-secondary-white">
+                <span>✉️</span>
+                <span>Contact Support</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer Section (Identical Standalone Footer) -->
+    <footer class="footer-card">
+      <!-- Left Column: Logo & Copyright -->
+      <div class="footer-col footer-brand">
+        <a href="index.html" class="footer-logo-link">
+          <img src="assets/images/footer-logo.webp" alt="Pomogochi" class="footer-logo default-logo">
+          <img src="assets/images/footer-logo-hover.webp" alt="Pomogochi Hover" class="footer-logo hover-logo">
+        </a>
+        <p class="footer-copy">© 2026 Pomogochi. All rights reserved.</p>
+      </div>
+
+      <!-- Middle Columns: Navigation Links -->
+      <div class="footer-col footer-links-group">
+        <div class="footer-link-col">
+          <h4 class="footer-heading">Village</h4>
+          <ul>
+            <li><a href="buddies.html">Buddies</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="two-beat-thinking.html">Two-Beat Thinking</a></li>
+            <li><span class="footer-link-disabled">Map <span class="footer-badge-soon">Soon</span></span></li>
+            <li><span class="footer-link-disabled">Houses <span class="footer-badge-soon">Soon</span></span></li>
+          </ul>
+        </div>
+
+        <div class="footer-link-col">
+          <h4 class="footer-heading">Community</h4>
+          <ul>
+            <li><span class="footer-link-disabled">Events <span class="footer-badge-soon">Soon</span></span></li>
+            <li><span class="footer-link-disabled">Fan Art <span class="footer-badge-soon">Soon</span></span></li>
+            <li><span class="footer-link-disabled">Stories <span class="footer-badge-soon">Soon</span></span></li>
+          </ul>
+        </div>
+
+        <div class="footer-link-col">
+          <h4 class="footer-heading">Support</h4>
+          <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Social Icons Column -->
+      <div class="footer-col footer-social">
+        <h4 class="footer-heading">Follow Us</h4>
+        <div class="social-icons">
+          <a href="#" class="social-btn social-yt" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          </a>
+          <a href="#" class="social-btn social-insta" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+          <a href="#" class="social-btn social-x" aria-label="X">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="#" class="social-btn social-tiktok" aria-label="TikTok">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.82.57-1.33 1.54-1.34 2.53a3.02 3.02 0 0 0 2.25 2.9c.96.28 2.05.07 2.85-.56.63-.5.98-1.28 1.01-2.08.01-4.99.01-9.97.01-14.96z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Right Column: Character/Mailbox Image -->
+      <div class="footer-col footer-character-slot">
+        <img src="assets/images/footer-character.webp" alt="Pomogochi Buddy & Mailbox" class="footer-character-img">
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- FAQ Interactive Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // 1. Accordion Toggle
+      const faqItems = document.querySelectorAll('.faq-item');
+
+      faqItems.forEach(item => {
+        const questionBtn = item.querySelector('.faq-question');
+        questionBtn.addEventListener('click', () => {
+          const isOpen = item.classList.contains('active');
+          faqItems.forEach(i => i.classList.remove('active'));
+          if (!isOpen) {
+            item.classList.add('active');
+          }
+        });
+      });
+
+      // 2. Category Tab Filtering
+      const tabBtns = document.querySelectorAll('.faq-tab-btn');
+      const searchInput = document.getElementById('faqSearchInput');
+      const noResults = document.getElementById('faqNoResults');
+
+      function filterFAQ() {
+        const selectedTab = document.querySelector('.faq-tab-btn.active').dataset.category;
+        const searchQuery = searchInput.value.toLowerCase().trim();
+        let visibleCount = 0;
+
+        faqItems.forEach(item => {
+          const categoryMatch = (selectedTab === 'all' || item.dataset.category === selectedTab);
+          const textContent = item.textContent.toLowerCase();
+          const searchMatch = !searchQuery || textContent.includes(searchQuery);
+
+          if (categoryMatch && searchMatch) {
+            item.style.display = 'block';
+            visibleCount++;
+          } else {
+            item.style.display = 'none';
+          }
+        });
+
+        if (visibleCount === 0) {
+          noResults.style.display = 'block';
+        } else {
+          noResults.style.display = 'none';
+        }
+      }
+
+      tabBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          tabBtns.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          filterFAQ();
+        });
+      });
+
+      // 3. Search Input Filtering
+      if (searchInput) {
+        searchInput.addEventListener('input', filterFAQ);
+      }
+    });
+  </script>
+
+  <!-- Scroll to Top Button -->
+  <button id="scrollToTopBtn" class="scroll-to-top-btn" aria-label="Scroll to Top">
+    <img src="assets/images/arrow_curved_up.webp" alt="Top" class="scroll-top-img">
+  </button>
+
+  <script>
+    const scrollBtn = document.getElementById('scrollToTopBtn');
+    if (scrollBtn) {
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) {
+          scrollBtn.classList.add('show');
+        } else {
+          scrollBtn.classList.remove('show');
+        }
+      });
+      scrollBtn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
+  </script>
+</body>
+</html>

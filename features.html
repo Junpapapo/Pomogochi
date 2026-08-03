@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Features - Pomogochi Extension</title>
+  <meta name="description" content="Discover the powerful & cozy features of Pomogochi desktop pet and Pomodoro companion.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Main Site Container -->
+  <div class="site-container">
+
+    <!-- Navbar / Header (Same standalone header as about.html) -->
+    <header class="navbar navbar-standalone">
+      <div class="nav-left">
+        <a href="index.html" class="logo-link">
+          <img src="assets/images/logo-about.webp" alt="Pomogochi" class="nav-logo">
+        </a>
+      </div>
+
+      <nav class="nav-center">
+        <ul class="nav-links">
+          <li><a href="index.html#home">Home</a></li>
+          <li><a href="buddies.html">Buddies</a></li>
+          <li><a href="features.html" class="active">Features</a></li>
+          <li><a href="two-beat-thinking.html">Two-Beat Thinking</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-right">
+        <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="btn-youtube">
+          <svg class="yt-icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+          </svg>
+          <span>Watch on YouTube</span>
+        </a>
+      </div>
+    </header>
+
+    <!-- Main Features Page Content -->
+    <main class="features-page-container">
+
+      <!-- 1. Hero Section -->
+      <section class="features-hero-section">
+        <div class="features-hero-grid">
+          <div class="features-hero-intro">
+            <h1 class="features-title">
+              Your Floating Buddy<br>
+              for <span class="highlight-green">Focus & Balance</span>
+            </h1>
+            <p class="features-subtitle">
+              Pomogochi stays by your side across the web, helping you focus, recharge, and organize your thoughts effortlessly.
+            </p>
+            
+            <div class="hero-buttons-group">
+              <a href="#" class="btn-green-bubble">
+                <span>★</span>
+                <span>Get Started Free</span>
+              </a>
+              <a href="#core-features" class="btn-white-play">
+                <span>▶</span>
+                <span>See All Features</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Circle Dial Visual -->
+          <div class="features-hero-visual">
+            <picture>
+              <source srcset="assets/images/features-hero-dial.webp" type="image/webp">
+              <img src="assets/images/features-hero-dial.webp" alt="Pomogochi Floating Buddy & Radial Dial Interface" class="features-hero-dial-img">
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <!-- =================================================================
+           2. Stats Bar Section (추후 실시간 데이터 연동 시 구현 예정으로 주석 처리)
+      <section class="features-stats-bar">
+        <div class="stats-chips-wrapper">
+          [Stat 1]
+          <div class="stat-chip">
+            <div class="stat-icon-box stat-yellow">🙂</div>
+            <div>
+              <div class="stat-num">100K+</div>
+              <div class="stat-label">Active Users</div>
+            </div>
+          </div>
+
+          [Stat 2]
+          <div class="stat-chip">
+            <div class="stat-icon-box stat-green">⏱️</div>
+            <div>
+              <div class="stat-num">2.5M+</div>
+              <div class="stat-label">Pomodoro Sessions Completed</div>
+            </div>
+          </div>
+
+          [Stat 3]
+          <div class="stat-chip">
+            <div class="stat-icon-box stat-star">⭐</div>
+            <div>
+              <div class="stat-num">1.1K+</div>
+              <div class="stat-label">3D Icons & Assets</div>
+            </div>
+          </div>
+
+          [Stat 4]
+          <div class="stat-chip">
+            <div class="stat-icon-box stat-sprout">🌱</div>
+            <div>
+              <div class="stat-num">20+</div>
+              <div class="stat-label">Unique Characters</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      ================================================================== -->
+
+      <!-- 3. Core Features Bento Grid Section -->
+      <section class="core-features-section" id="core-features">
+        <div class="section-title-wrapper text-center">
+          <span class="badge-core">CORE FEATURES</span>
+          <h2 class="section-title">Everything You Need to Focus, Rest & Think</h2>
+          <p class="section-subtitle">One seamless platform that supports your productivity journey.</p>
+        </div>
+
+        <div class="bento-features-grid">
+
+          <!-- Bento Card 1: FOCUS -->
+          <div class="bento-card">
+            <div>
+              <div class="bento-card-header">
+                <span class="bento-tag tag-green">FOCUS</span>
+                <span class="bento-badge-arrow">&gt;</span>
+              </div>
+              <h3 class="bento-title">Pomodoro Focus & Floating Buddy</h3>
+              <p class="bento-desc">Stay on track with a smart timer and a jelly physics buddy that cheers you on anywhere.</p>
+            </div>
+            
+            <div class="bento-ui-preview focus-widget-preview">
+              <img src="assets/images/feature-focus-timer-box.webp" alt="Focus Time 24:57 Widget Box" class="focus-timer-box-img">
+              <img src="assets/images/feature-focus-widget.webp" alt="Pomodoro Focus Buddy Widget" class="focus-widget-img">
+            </div>
+
+            <div class="bento-tags-footer">
+              <span class="chip-tag chip-green">Jelly Physics</span>
+              <span class="chip-tag chip-green">Smart Timer</span>
+              <span class="chip-tag chip-green">Context Chat</span>
+            </div>
+          </div>
+
+          <!-- Bento Card 2: REST -->
+          <div class="bento-card bento-card-bg-rest">
+            <div>
+              <div class="bento-card-header">
+                <span class="bento-tag tag-peach">REST</span>
+                <span class="bento-badge-arrow">&gt;</span>
+              </div>
+              <h3 class="bento-title">Rest & Relax</h3>
+              <p class="bento-desc">Recharge your mind with 16 immersive scenes and soothing ASMR sounds.</p>
+            </div>
+
+            <div class="bento-ui-preview rest-relax-preview-transparent">
+              <img src="assets/images/feature-rest-widget-1.webp" alt="16 Healing Scenes ASMR" class="rest-widget-img-1">
+              <img src="assets/images/feature-rest-widget-2.webp" alt="Rest Buddy Companion" class="rest-widget-img-2">
+            </div>
+
+            <div class="bento-tags-footer">
+              <span class="chip-tag chip-peach">16 Healing Scenes</span>
+              <span class="chip-tag chip-peach">ASMR Sounds</span>
+              <span class="chip-tag chip-peach">Break Timer</span>
+            </div>
+          </div>
+
+          <!-- Bento Card 3: STRUCTURE -->
+          <div class="bento-card bento-card-bg-twobeat">
+            <div>
+              <div class="bento-card-header">
+                <span class="bento-tag tag-purple">STRUCTURE</span>
+                <span class="bento-badge-arrow">&gt;</span>
+              </div>
+              <h3 class="bento-title">Two-Beat Thinking</h3>
+              <p class="bento-desc">Dump ideas, sort them with 6 frameworks, and turn thoughts into action.</p>
+            </div>
+
+            <div class="bento-ui-preview twobeat-widget-spacer"></div>
+
+            <div class="bento-tags-footer">
+              <span class="chip-tag chip-purple">6 Frameworks</span>
+              <span class="chip-tag chip-purple">Insight Refinement</span>
+              <span class="chip-tag chip-purple">Action Items</span>
+            </div>
+          </div>
+
+          <!-- Bento Card 4: ROOM -->
+          <div class="bento-card bento-card-bg-room">
+            <div>
+              <div class="bento-card-header">
+                <span class="bento-tag tag-blue">ROOM</span>
+                <span class="bento-badge-arrow">&gt;</span>
+              </div>
+              <h3 class="bento-title">Buddy Room & Decor</h3>
+              <p class="bento-desc">Decorate your cozy room, collect furniture, and unlock special buffs.</p>
+            </div>
+
+            <div class="bento-ui-preview room-widget-spacer"></div>
+
+            <div class="bento-tags-footer">
+              <span class="chip-tag chip-blue">Room Decor</span>
+              <span class="chip-tag chip-blue">Buff System</span>
+              <span class="chip-tag chip-blue">Guestbook</span>
+            </div>
+          </div>
+
+          <!-- Bento Card 5: COLLECT -->
+          <div class="bento-card bento-card-bg-collect">
+            <div>
+              <div class="bento-card-header">
+                <span class="bento-tag tag-red">COLLECT</span>
+                <span class="bento-badge-arrow">&gt;</span>
+              </div>
+              <h3 class="bento-title">Buddy Collection & Diary</h3>
+              <p class="bento-desc">Collect unique buddies, increase affinity, and read their daily diary.</p>
+            </div>
+
+            <div class="bento-ui-preview collect-widget-spacer"></div>
+
+            <div class="bento-tags-footer">
+              <span class="chip-tag chip-peach">20+ Buddies</span>
+              <span class="chip-tag chip-peach">Affinity System</span>
+              <span class="chip-tag chip-peach">Daily Diary</span>
+            </div>
+          </div>
+
+          <!-- Bento Card 6: TOOLS -->
+          <div class="bento-card bento-card-bg-tools">
+            <div>
+              <div class="bento-card-header">
+                <span class="bento-tag tag-mint">TOOLS</span>
+                <span class="bento-badge-arrow">&gt;</span>
+              </div>
+              <h3 class="bento-title">Smart Tools & Widgets</h3>
+              <p class="bento-desc">Boost your day with useful tools, widgets, and instant actions.</p>
+            </div>
+
+            <div class="bento-ui-preview tools-widget-spacer"></div>
+
+            <div class="bento-tags-footer">
+              <span class="chip-tag chip-green">AI Briefing</span>
+              <span class="chip-tag chip-green">Todo & Notes</span>
+              <span class="chip-tag chip-green">Weather & More</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 4. Works Everywhere Banner Section -->
+      <section class="works-everywhere-section">
+        <div class="works-everywhere-banner">
+          <div class="works-left">
+            <h2 class="works-title">Works Everywhere You Do</h2>
+            <p class="works-desc">
+              Pomogochi lives in your browser so you can focus without switching contexts.
+            </p>
+            <a href="#" class="btn-chrome-add">
+              <span>🌐</span>
+              <span>Add Pomogochi to Chrome</span>
+            </a>
+          </div>
+
+          <div class="banner-preview-cards">
+            <!-- Popup 1 -->
+            <div class="preview-popup-card">
+              <div class="popup-head">Floating Buddy</div>
+              <img src="assets/images/feature-works-floating-buddy.webp" alt="Floating Buddy Widget" class="preview-popup-img">
+            </div>
+            <!-- Popup 2 -->
+            <div class="preview-popup-card">
+              <div class="popup-head">Focus Timer</div>
+              <img src="assets/images/feature-works-focus-timer.webp" alt="Focus Timer Widget" class="preview-popup-img">
+            </div>
+            <!-- Popup 3 -->
+            <div class="preview-popup-card">
+              <div class="popup-head">Quick Tools</div>
+              <img src="assets/images/feature-works-quick-tools.webp" alt="Quick Tools Widget" class="preview-popup-img">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. Buddy Slogan Section -->
+      <section class="buddy-strip-section">
+        <p class="features-slogan">Focus better. Rest deeper. Think clearer. That's Pomogochi. 💚</p>
+      </section>
+
+    </main>
+
+    <!-- Footer Section (Identical to about.html) -->
+    <footer class="footer-card">
+      <!-- Left Column: Logo & Copyright -->
+      <div class="footer-col footer-brand">
+        <a href="index.html" class="footer-logo-link">
+          <img src="assets/images/footer-logo.webp" alt="Pomogochi" class="footer-logo default-logo">
+          <img src="assets/images/footer-logo-hover.webp" alt="Pomogochi Hover" class="footer-logo hover-logo">
+        </a>
+        <p class="footer-copy">© 2026 Pomogochi. All rights reserved.</p>
+      </div>
+
+      <!-- Middle Columns: Navigation Links -->
+      <div class="footer-col footer-links-group">
+        <div class="footer-link-col">
+          <h4 class="footer-heading">Village</h4>
+          <ul>
+            <li><a href="buddies.html">Buddies</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="two-beat-thinking.html">Two-Beat Thinking</a></li>
+            <li><span class="footer-link-disabled">Map <span class="footer-badge-soon">Soon</span></span></li>
+            <li><span class="footer-link-disabled">Houses <span class="footer-badge-soon">Soon</span></span></li>
+          </ul>
+        </div>
+
+        <div class="footer-link-col">
+          <h4 class="footer-heading">Community</h4>
+          <ul>
+            <li><span class="footer-link-disabled">Events <span class="footer-badge-soon">Soon</span></span></li>
+            <li><span class="footer-link-disabled">Fan Art <span class="footer-badge-soon">Soon</span></span></li>
+            <li><span class="footer-link-disabled">Stories <span class="footer-badge-soon">Soon</span></span></li>
+          </ul>
+        </div>
+
+        <div class="footer-link-col">
+          <h4 class="footer-heading">Support</h4>
+          <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Social Icons Column -->
+      <div class="footer-col footer-social">
+        <h4 class="footer-heading">Follow Us</h4>
+        <div class="social-icons">
+          <a href="#" class="social-btn social-yt" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          </a>
+          <a href="#" class="social-btn social-insta" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+          <a href="#" class="social-btn social-x" aria-label="X">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="#" class="social-btn social-tiktok" aria-label="TikTok">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.82.57-1.33 1.54-1.34 2.53a3.02 3.02 0 0 0 2.25 2.9c.96.28 2.05.07 2.85-.56.63-.5.98-1.28 1.01-2.08.01-4.99.01-9.97.01-14.96z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Right Column: Character/Mailbox Image -->
+      <div class="footer-col footer-character-slot">
+        <img src="assets/images/footer-character.webp" alt="Pomogochi Buddy & Mailbox" class="footer-character-img">
+      </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" class="scroll-to-top-btn" aria-label="Scroll to Top">
+      <img src="assets/images/arrow_curved_up.webp" alt="Top" class="scroll-top-img">
+    </button>
+
+    <script>
+      const scrollBtn = document.getElementById('scrollToTopBtn');
+      if (scrollBtn) {
+        window.addEventListener('scroll', () => {
+          if (window.scrollY > 300) {
+            scrollBtn.classList.add('show');
+          } else {
+            scrollBtn.classList.remove('show');
+          }
+        });
+        scrollBtn.addEventListener('click', () => {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      }
+    </script>
+</body>
+</html>
