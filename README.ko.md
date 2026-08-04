@@ -77,10 +77,12 @@ Pomogochi는 뇌의 뇌과부하를 해소하도록 설계된 독자적인 6단�
 
 ---
 
-## 🤝 커뮤니티 & 피드백
+## 🤝 문의 & 지원 (Contact & Support)
 
-* 🐛 **버그 제보 및 기능 제안**: [GitHub Issues](https://github.com/Junpapapo/Pomogochi/issues)에서 티켓을 등록해주세요.
-* 💬 **피드백 & 의견 나누기**: [GitHub Issues](https://github.com/Junpapapo/Pomogochi/issues)에서 자유롭게 의견을 나눠주세요.
+질문, 기능 제안, 버그 제보가 있으신 경우 언제든 연락해 주세요:
+
+* 🐛 **GitHub Issues**: 버그 제보 및 기능 리퀘스트는 [GitHub Issues](https://github.com/Junpapapo/Pomogochi/issues)에 등록해 주세요.
+* 📧 **이메일 문의**: [junpapapo@gmail.com](mailto:junpapapo@gmail.com)으로 직접 문의해 주세요.
 
 ---
 

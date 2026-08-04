@@ -77,10 +77,12 @@ Webブラウザ上で一緒に過ごす **20種類以上のユニークで可愛
 
 ---
 
-## 🤝 コミュニティ & フィードバック
+## 🤝 お問い合わせ & サポート (Contact & Support)
 
-* 🐛 **バグ報告 & 機能リクエスト**: [GitHub Issues](https://github.com/Junpapapo/Pomogochi/issues) からチケットを作成してください。
-* 💬 **フィードバック & ディスカッション**: [GitHub Issues](https://github.com/Junpapapo/Pomogochi/issues) で自由にご意見をお寄せください。
+ご質問、機能のご提案、バグ報告などがございましたら、お気軽にお問い合わせください：
+
+* 🐛 **GitHub Issues**: バグ報告や機能リクエストは [GitHub Issues](https://github.com/Junpapapo/Pomogochi/issues) からお送りください。
+* 📧 **メールお問い合わせ**: [junpapapo@gmail.com](mailto:junpapapo@gmail.com) まで直接ご連絡ください。
 
 ---
 

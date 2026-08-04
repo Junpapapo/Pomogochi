@@ -79,12 +79,12 @@ Discover more about Pomogochi on our official web channels:
 
 ---
 
-## 🤝 Community & Feedback
+## 🤝 Contact & Support
 
-We welcome feedback, suggestions, and feature requests from our global community!
+If you have any questions, suggestions, or bug reports, please feel free to reach out to us:
 
-* 🐛 **Report an Issue or Request a Feature**: Open a ticket on our [GitHub Issues](https://github.com/Junpapapo/Pomogochi/issues).
-* 💬 **Discussions & Feedback**: Share your thoughts and join the conversation on [GitHub Issues](https://github.com/Junpapapo/Pomogochi/issues).
+* 🐛 **GitHub Issues**: Open a ticket for bug reports and feature requests on [GitHub Issues](https://github.com/Junpapapo/Pomogochi/issues).
+* 📧 **Email**: Contact us directly at [junpapapo@gmail.com](mailto:junpapapo@gmail.com).
 
 ---
 
