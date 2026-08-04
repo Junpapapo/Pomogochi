@@ -80,7 +80,7 @@ Webブラウザ上で一緒に過ごす **20種類以上のユニークで可愛
 ## 🤝 コミュニティ & フィードバック
 
 * 🐛 **バグ報告 & 機能リクエスト**: [GitHub Issues](https://github.com/Junpapapo/Pomogochi/issues) からチケットを作成してください。
-* 💬 **ディスカッション**: [GitHub Discussions](https://github.com/Junpapapo/Pomogochi/discussions) で自由にご意見をお寄せください。
+* 💬 **フィードバック & ディスカッション**: [GitHub Issues](https://github.com/Junpapapo/Pomogochi/issues) で自由にご意見をお寄せください。
 
 ---
 

@@ -84,7 +84,7 @@ Discover more about Pomogochi on our official web channels:
 We welcome feedback, suggestions, and feature requests from our global community!
 
 * 🐛 **Report an Issue or Request a Feature**: Open a ticket on our [GitHub Issues](https://github.com/Junpapapo/Pomogochi/issues).
-* 💬 **Discussions & Feedback**: Share your thoughts and join the conversation in our [GitHub Discussions](https://github.com/Junpapapo/Pomogochi/discussions).
+* 💬 **Discussions & Feedback**: Share your thoughts and join the conversation on [GitHub Issues](https://github.com/Junpapapo/Pomogochi/issues).
 
 ---
 
